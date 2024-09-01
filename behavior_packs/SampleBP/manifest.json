@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "version": [ 1, 0, 0 ],
+        "uuid": "1f21915d-447a-4952-acf5-fee2ac08ef1b",
+        "min_engine_version": [ 1, 21, 20 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "82e9985c-7468-4c7d-a202-0e5e3aa2ffcb",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "846a39c6-c86d-41af-8d55-02af6e513310",
+            "entry": "scripts/main.js",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "e27322b4-4fd2-4f2d-b034-c0e20e9b7319",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ],
+    "metadata": {
+        "authors": ["mitarashiusagi"],
+        "url": "https://x.com/mitarashiusagi_"
+    }
+}

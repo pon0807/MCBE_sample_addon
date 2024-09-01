@@ -1,0 +1,59 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sample:block005",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "sample:north": [0, 1],
+                "sample:east": [0, 1],
+                "sample:south": [0, 1],
+                "sample:west": [0, 1]
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "block005",
+                    "render_method": "opaque"
+                },
+                "*": {
+                    "texture": "white",
+                    "render_method": "opaque"
+                }
+            },
+            "tag:block005": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('sample:north') == 0 && q.block_state('sample:east') == 0 && q.block_state('sample:south') == 0 && q.block_state('sample:west') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "block005"
+                        },
+                        "*": {
+                            "texture": "white"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('sample:north') == 1 && q.block_state('sample:east') == 0 && q.block_state('sample:south') == 0 && q.block_state('sample:west') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "up": {
+                            "texture": "block005_n"
+                        },
+                        "*": {
+                            "texture": "white"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

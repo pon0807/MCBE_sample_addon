@@ -1,0 +1,8 @@
+[
+    {
+        "atlas_tile": "block003",
+        "flipbook_texture": "textures/blocks/block003",
+        "ticks_per_frame": 20,
+        "blend_frames": false
+    }
+]

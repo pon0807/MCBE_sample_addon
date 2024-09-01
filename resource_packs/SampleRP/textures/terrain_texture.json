@@ -1,0 +1,65 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "Sample",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "block001": {
+            "textures": "textures/blocks/block001"
+        },
+        "up": {
+            "textures": "textures/blocks/up"
+        },
+        "down": {
+            "textures": "textures/blocks/down"
+        },
+        "north": {
+            "textures": "textures/blocks/north"
+        },
+        "east": {
+            "textures": "textures/blocks/east"
+        },
+        "south": {
+            "textures": "textures/blocks/south"
+        },
+        "west": {
+            "textures": "textures/blocks/west"
+        },
+        "block003": {
+            "textures": "textures/blocks/block003"
+        },
+        "back": {
+            "textures": "textures/blocks/back"
+        },
+        "right": {
+            "textures": "textures/blocks/right"
+        },
+        "front": {
+            "textures": "textures/blocks/front"
+        },
+        "left": {
+            "textures": "textures/blocks/left"
+        },
+        "white": {
+            "textures": "textures/blocks/white"
+        },
+        "block005": {
+            "textures": "textures/blocks/block005"
+        },
+        "block005_n": {
+            "textures": "textures/blocks/block005_n"
+        },
+        "block005_ne": {
+            "textures": "textures/blocks/block005_ne"
+        },
+        "block005_ns": {
+            "textures": "textures/blocks/block005_ns"
+        },
+        "block005_nes": {
+            "textures": "textures/blocks/block005_nes"
+        },
+        "block005_nesw": {
+            "textures": "textures/blocks/block005_nesw"
+        }
+    }
+}

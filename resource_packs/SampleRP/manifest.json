@@ -1,0 +1,21 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "version": [ 1, 0, 0 ],
+        "uuid": "e27322b4-4fd2-4f2d-b034-c0e20e9b7319",
+        "min_engine_version": [ 1, 21, 20 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "27be5a78-ae39-4376-8e92-bb2bb0a5a130",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "metadata": {
+        "authors": ["mitarashiusagi"],
+        "url": "https://x.com/mitarashiusagi_"
+    }
+}

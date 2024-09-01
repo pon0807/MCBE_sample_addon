@@ -1,0 +1,40 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sample:block002",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "up": {
+                    "texture": "up",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "down",
+                    "render_method": "opaque"
+                },
+                "north": {
+                    "texture": "north",
+                    "render_method": "opaque"
+                },
+                "east": {
+                    "texture": "east",
+                    "render_method": "opaque"
+                },
+                "south": {
+                    "texture": "south",
+                    "render_method": "opaque"
+                },
+                "west": {
+                    "texture": "west",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
+}
