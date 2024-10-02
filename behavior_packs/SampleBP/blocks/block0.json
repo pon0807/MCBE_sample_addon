@@ -2,17 +2,16 @@
     "format_version": "1.21.20",
     "minecraft:block": {
         "description": {
-            "identifier": "sample:block001",
+            "identifier": "sample:block0",
             "menu_category": {
-                "category": "construction",
-                "is_hidden_in_commands": true
+                "category": "construction"
             }
         },
         "components": {
             "minecraft:geometry": "minecraft:geometry.cross",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "block001",
+                    "texture": "block0",
                     "render_method": "opaque"
                 }
             }
