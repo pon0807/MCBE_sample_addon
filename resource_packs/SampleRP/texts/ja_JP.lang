@@ -1,3 +1,6 @@
 ### manifest内の翻訳
 pack.name=サンプルアドオン
 pack.description=これはアドオンのサンプルです。
+
+### ブロック名の翻訳
+tile.sample:block0.name=基本のブロック
