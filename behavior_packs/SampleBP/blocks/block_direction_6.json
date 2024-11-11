@@ -15,7 +15,7 @@
         "components": {
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:material_instances": {
-                "up": {
+                "south": {
                     "texture": "block_direction_6",
                     "render_method": "opaque"
                 },
