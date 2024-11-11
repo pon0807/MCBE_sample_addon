@@ -66,6 +66,12 @@
         },
         "block0": {
             "textures": "textures/blocks/block0"
+        },
+        "block_direction_4": {
+            "textures": "textures/blocks/block_direction_4"
+        },
+        "block_direction_6": {
+            "textures": "textures/blocks/block_direction_6"
         }
     }
 }

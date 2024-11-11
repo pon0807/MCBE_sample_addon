@@ -2,16 +2,16 @@
     "format_version": "1.21.40",
     "minecraft:block": {
         "description": {
-            "identifier": "test:block003",
+            "identifier": "sample:block_direction_3",
             "menu_category": {
-                "category": "none"
+                "category": "construction"
             }
         },
         "components": {
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "block003",
+                    "texture": "block0",
                     "render_method": "opaque"
                 }
             }
