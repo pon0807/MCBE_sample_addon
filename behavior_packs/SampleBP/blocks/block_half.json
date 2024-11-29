@@ -1,0 +1,57 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sample:block_half.json",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.half_block_bottom",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "iron_block",
+                    "render_method": "opaque"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:geometry": "geometry.half_block_top",
+                    "minecraft:collision_box": {
+                        "origin": [ -8, 8, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [ -8, 8, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:geometry": "geometry.half_block_bottom",
+                    "minecraft:collision_box": {
+                        "origin": [ -8, 0, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [ -8, 0, -8 ],
+                        "size": [ 16, 8, 16 ]
+                    }
+                }
+            }
+        ]
+    }
+}
