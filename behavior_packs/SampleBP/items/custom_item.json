@@ -1,0 +1,17 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sample:custom_item",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "custom_item",
+            "minecraft:display_name": {
+                "value": "カスタムアイテム" // item.custom_item.name
+            }
+        }
+    }
+}

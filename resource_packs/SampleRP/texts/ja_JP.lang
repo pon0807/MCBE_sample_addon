@@ -4,3 +4,5 @@ pack.description=これはアドオンのサンプルです。
 
 ### ブロック名の翻訳
 tile.sample:block0.name=基本のブロック
+
+item.custom_item.name=カスタムアイテム
