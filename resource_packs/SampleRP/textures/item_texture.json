@@ -4,6 +4,9 @@
     "texture_data": {
         "custom_item": {
             "textures": "textures/items/ruby"
+        },
+        "red_box": {
+            "textures": "textures/items/apple"
         }
     }
 }
