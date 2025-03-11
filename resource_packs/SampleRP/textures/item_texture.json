@@ -5,8 +5,11 @@
         "custom_item": {
             "textures": "textures/items/ruby"
         },
-        "red_box": {
-            "textures": "textures/items/apple"
+        "dice": {
+            "textures": "textures/items/dice"
+        },
+        "hat": {
+            "textures": "textures/items/hat"
         }
     }
 }
